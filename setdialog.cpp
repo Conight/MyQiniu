@@ -13,6 +13,7 @@ setDialog::setDialog(QWidget *parent) :
     ui(new Ui::setDialog)
 {
     ui->setupUi(this);
+    setWindowTitle("Setting");
     setQiniuKey();
 }
 
